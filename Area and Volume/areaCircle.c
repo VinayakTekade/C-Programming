@@ -1,3 +1,5 @@
+// Write a C program to find the area of circle.
+
 #include <stdio.h>
 #include <math.h>
 void main()
