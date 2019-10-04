@@ -1,3 +1,5 @@
+// Write a C program to find out the G.C.D of two numbers.
+
 #include <stdio.h>
 void main()
 {
