@@ -3,15 +3,16 @@
 #include <stdio.h>
 void main()
 {
-    int n, rem, p = 0 , r = 0;
+    int n, rem, p, r;
     char ch = 'y';
     do
     {
+        r = 0;
         printf("Enter an integer: \n");
         scanf("%d", &n);
-        p=n;
+        p = n;
 
-        while (n!=0)
+        while (n != 0)
         {
             rem = n % 10;
             r = r * 10 + rem;
